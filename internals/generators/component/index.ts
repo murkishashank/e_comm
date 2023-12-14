@@ -42,25 +42,25 @@ export const componentGenerator: PlopGeneratorConfig = {
       default: false,
       message: 'Do you want to wrap your component in React.memo?',
     },
-    {
-      type: 'confirm',
-      name: ComponentProptNames.wantStyledComponents,
-      default: true,
-      message: 'Do you want to use styled-components?',
-    },
-    {
-      type: 'confirm',
-      name: ComponentProptNames.wantTranslations,
-      default: false,
-      message:
-        'Do you want i18n translations (i.e. will this component use text)?',
-    },
-    {
-      type: 'confirm',
-      name: ComponentProptNames.wantLoadable,
-      default: false,
-      message: 'Do you want to load the component asynchronously?',
-    },
+    // {
+    //   type: 'confirm',
+    //   name: ComponentProptNames.wantStyledComponents,
+    //   default: true,
+    //   message: 'Do you want to use styled-components?',
+    // },
+    // {
+    //   type: 'confirm',
+    //   name: ComponentProptNames.wantTranslations,
+    //   default: false,
+    //   message:
+    //     'Do you want i18n translations (i.e. will this component use text)?',
+    // },
+    // {
+    //   type: 'confirm',
+    //   name: ComponentProptNames.wantLoadable,
+    //   default: false,
+    //   message: 'Do you want to load the component asynchronously?',
+    // },
     {
       type: 'confirm',
       name: ComponentProptNames.wantTests,
